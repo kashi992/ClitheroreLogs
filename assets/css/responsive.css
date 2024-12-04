@@ -1,0 +1,71 @@
+/* Laptop Layout: 1200px. */
+@media only screen and (min-width: 1200px) and (max-width: 1500px) { 
+    
+    
+}
+/* Medium Layout: 992px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+}
+/* Tablet & mobile Layout: 768px. */
+@media only screen and (max-width: 991px) {
+    .heading_top {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+    .single_wrapper_firewood img {
+        height: 250px;
+    }
+}
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .hero_single_weapper img {
+        height: 300px;
+    }
+    .single_product_wood {
+        padding-bottom: 40px;
+    }
+    .single_wrapper_firewood {
+        margin-bottom: 30px;
+    }
+    .footer_social {
+        text-align: left;
+        margin-top: 25px;
+    }
+    .footer_social ul > li {
+        margin-right: 15px;
+        margin-left: 0;
+    }
+    .single_wrapper_firewood img {
+        height: auto;
+        width: 100%;
+    }
+    .require_text {
+        text-align: left;
+    }
+    .require_text p {
+        margin-top: 30px;
+    }
+    .heading_top {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .header_logo img {
+        width: 65px;
+    }
+    .hero_area {
+        padding-top: 10px;
+    }
+    .delivery_info h2 {
+        font-size: 40px;
+    }
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+}
